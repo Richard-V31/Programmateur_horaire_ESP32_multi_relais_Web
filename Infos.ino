@@ -98,7 +98,7 @@ Largeur piste	                 38px	    56px    1️⃣
 Hauteur piste	                 21px	    30px    1️⃣
 Diamètre du rond	             15px	    18px    2️⃣
 Position initiale (left/top)	  3px	    4px     3️⃣
-Déplacement quand activé	      17px	  26px    4️⃣
+Déplacement quand activé	     17px	   26px    4️⃣
 
 .toggle{position:relative; width:56px; height:30px; <--1️⃣ flex-shrink:0; et translateX(26px)} 
 .toggle input{opacity:0; width:0; height:0;}
