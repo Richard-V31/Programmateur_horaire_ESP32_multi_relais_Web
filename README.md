@@ -89,7 +89,7 @@ L'ESP32 se connectera automatiquement au réseau de cette liste offrant le meill
 Dans le `.ino`, adaptez si besoin :
 
 ```cpp
-const char* hostname = "richardv";                             // accessible via http://richardv.local
+const char* hostname = "richardv";                             // Modifiable et accessible via http://richardv.local
 const char *TZ_INFO  = "CET-1CEST,M3.5.0,M10.5.0/3";           // fuseau horaire (France par défaut)
 ```
 
