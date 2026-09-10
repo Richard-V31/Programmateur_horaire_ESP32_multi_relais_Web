@@ -69,7 +69,7 @@ Ce forçage physique est optionnel : un relais sans bouton câblé continue de f
 
 ### 1. Identifiants Wi-Fi (`arduino_secrets.h`)
 
-Créez, à côté du fichier `.ino`, un fichier `arduino_secrets.h` (non fourni et à ne pas partager) contenant au minimum :
+Créez, en plus du fichier `.ino`, un fichier `arduino_secrets.h` (non fourni et à ne pas partager) contenant au minimum :
 
 ```cpp
 #define SECRET_SSID  "Nom_reseau_1"
