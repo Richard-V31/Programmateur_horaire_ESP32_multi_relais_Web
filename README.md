@@ -72,13 +72,13 @@ Ce forçage physique est optionnel : un relais sans bouton câblé continue de f
 Créez, en plus du fichier `.ino`, un fichier `arduino_secrets.h` (non fourni et à ne pas partager) contenant au minimum :
 
 ```cpp
-#define SECRET_SSID  "Nom_reseau_1"
+#define SECRET_SSID  "Nom_Wifi_1"
 #define SECRET_PASS  "mot_de_passe_1"
-#define SECRET_SSID2 "Nom_reseau_2"
+#define SECRET_SSID2 "Nom_Wifi_2"
 #define SECRET_PASS2 "mot_de_passe_2"
 
 // Optionnel : décommenter pour un 3e réseau connu
-// #define SECRET_SSID3 "Nom_reseau_3"
+// #define SECRET_SSID3 "Nom_Wifi_3"
 // #define SECRET_PASS3 "mot_de_passe_3"
 ```
 
